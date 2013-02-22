@@ -6,7 +6,7 @@ body {
 }
 
 #wrap {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto 20px;
 }
 
@@ -21,10 +21,10 @@ body {
 
 #header h2 {
   margin: 0 0 5px;
+  font-size: 22px;
 }
 
 h1, h2, h3, h4 {
-  overflow: hidden;
   text-transform: uppercase;
 }
 
@@ -40,7 +40,12 @@ h2 {
   color: #993300;
 }
 
-h3 {margin: 0;}
+h3 {
+  margin: 0 0 5px;
+  overflow: hidden;
+  line-height: 120%;
+  font-size: 19px;
+}
 
 h3 span {
   font-size: .8em;
@@ -57,10 +62,13 @@ a {
 
 .left {
   float: left;
+  width: 60%;
 }
 
 .right {
   float: right;
+  width: 40%;
+  text-align: right;
 }
 
 .section {

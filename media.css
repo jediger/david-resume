@@ -1,0 +1,70 @@
+@media screen and (max-width: 500px) {
+  
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+  
+  .section ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #wrap {
+    padding: 0 5px;
+  }
+}
+
+@media screen and (min-width: 610px) {
+
+}
+
+@media screen and (min-width: 740px) {
+}
+
+@media screen and (min-width: 900px) {
+
+}
+
+
+@media screen and (min-width: 1020px){
+}
+
+@media screen and (min-width: 1940px){
+}
+
+
+
+/* Pixel density swaps
+*********************************************/
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+	
+}
+
+
+@media 
+only screen and (min-width:600px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width:600px) and (min-device-pixel-ratio: 1.5){
+	
+}
+
+
+@media 
+only screen and (min-width:780px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width:780px) and (min-device-pixel-ratio: 1.5){
+	
+}
